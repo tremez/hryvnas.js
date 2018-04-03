@@ -19,7 +19,7 @@ var decimals = {
     text.should.equal('одна гривня 00 копійок');
 
     text = hryvnas(1.01);
-    text.should.equal('один гривня 01 копійка');
+    text.should.equal('одна гривня 01 копійка');
 
     text = hryvnas(2.02);
     text.should.equal('дві гривні 02 копійки');
@@ -42,16 +42,16 @@ var decimals = {
     text.should.equal('одна гривня 16 копійок');
 
     text = hryvnas('2,189');
-    text.should.equal('дві гривні 19 копеек');
+    text.should.equal('дві гривні 19 копійок');
 
     text = hryvnas(3.185);
-    text.should.equal('три гривні 19 копеек');
+    text.should.equal('три гривні 19 копійок');
 
     text = hryvnas(4.0185);
-    text.should.equal('чотири гривні 02 копейки');
+    text.should.equal('чотири гривні 02 копійки');
 
     text = hryvnas(5.134);
-    text.should.equal('п\'ять гривень 13 копеек');
+    text.should.equal('п\'ять гривень 13 копійок');
   }
 };
 
@@ -80,10 +80,10 @@ var billions = function(hryvnas) {
 
 var currencyCodes = function(hryvnas) {
   var text = hryvnas(10.10);
-  text.should.equal('десять гривент 10 копійок');
+  text.should.equal('десять гривень 10 копійок');
 
   text = hryvnas(10.10, 'UAH');
-  text.should.equal('десять гривент 10 копійок');
+  text.should.equal('десять гривень 10 копійок');
 
 };
 
@@ -136,7 +136,7 @@ describe('hryvnas in JavaScript', function() {
   });
 });
 
-describe('hryvnas in minify JavaScript', function() {
+describe('Hryvnas in minify JavaScript', function() {
   var hryvnas = require('../lib/hryvnas.min.js').hryvnas;
 
   it('construct', function() {
