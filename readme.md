@@ -83,5 +83,5 @@ $ npm test
 [travis-url]: https://travis-ci.org/tremez/hryvnas.js
 [coveralls-image]: https://coveralls.io/repos/tremez/hryvnas.js/badge.svg?branch=master&service=github
 [coveralls-url]: https://coveralls.io/github/tremez/hryvnas.js?branch=master
-[devdependency-image]: https://img.shields.io/david/dev/tremez/hryvnas.svg?style=flat
-[devdependency-url]: https://david-dm.org/tremez/hryvnas#info=devDependencies
+[devdependency-image]: https://img.shields.io/david/dev/tremez/hryvnas.js.svg?style=flat
+[devdependency-url]: https://david-dm.org/tremez/hryvnas.js#info=devDependencies
