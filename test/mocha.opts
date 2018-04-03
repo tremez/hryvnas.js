@@ -1,0 +1,6 @@
+--reporter spec
+--require should
+--bail
+--check-leaks
+
+test/test.js

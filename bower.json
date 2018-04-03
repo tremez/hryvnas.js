@@ -1,0 +1,16 @@
+{
+  "name": "hryvnas",
+  "version": "0.2.0",
+  "author": "Taras Remez",
+  "homepage": "https://github.com/tremez/hryvnas.js",
+  "main": "./lib/hryvnas.min.js",
+  "ignore": [
+    ".editorconfig",
+    ".eslintrc",
+    ".gitignore",
+    ".npmignore",
+    ".travis.yml",
+    "package.json",
+    "test"
+  ]
+}
