@@ -79,9 +79,9 @@ $ npm test
 
 [npm-image]: https://img.shields.io/npm/v/hryvnas.svg?style=flat
 [npm-url]: https://www.npmjs.com/package/hryvnas
-[travis-image]: https://travis-ci.org/tremez/hryvnas.svg?branch=master
-[travis-url]: https://travis-ci.org/tremez/hryvnas
-[coveralls-image]: https://coveralls.io/repos/tremez/hryvnas/badge.svg?branch=master&service=github
-[coveralls-url]: https://coveralls.io/github/tremez/hryvnas?branch=master
+[travis-image]: https://travis-ci.org/tremez/hryvnas.js.svg?branch=master
+[travis-url]: https://travis-ci.org/tremez/hryvnas.js
+[coveralls-image]: https://coveralls.io/repos/tremez/hryvnas.js/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/github/tremez/hryvnas.js?branch=master
 [devdependency-image]: https://img.shields.io/david/dev/tremez/hryvnas.svg?style=flat
 [devdependency-url]: https://david-dm.org/tremez/hryvnas#info=devDependencies
