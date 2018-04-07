@@ -23,7 +23,7 @@ var hryvnas = require('hryvnas').hryvnas;
 var text = hryvnas(12.10);
 console.log(text); // дванадцять гривень 10 копійок
 
-var text = rubles("151,31");
+var text = hryvnas("151,31");
 console.log(text); // сто п'ятдесят одна гривня 31 копійка
 ```
 
@@ -59,7 +59,7 @@ console.log(text); // сто п'ятдесят одна гривня 31 копі
 
 ### Знайшли помилку?
 
-Будь ласочка, створіть тікет — https://github.com/tremez/hryvnas/issues
+Будь ласочка, створіть тікет — https://github.com/tremez/hryvnas.js/issues
 
 ### Тестування
 
